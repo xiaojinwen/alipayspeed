@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LSPosed 作用域：仅支付宝主包。子进程（:tools 等）由模块内部按需放行。 -->
+    <string-array name="xposed_scope">
+        <item>com.eg.android.AlipayGphone</item>
+    </string-array>
+</resources>
